@@ -1,0 +1,8 @@
+[project]
+name = "SmartRT02-backend"
+
+[build]
+command = ""
+
+[deploy]
+command = ""

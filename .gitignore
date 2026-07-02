@@ -1,0 +1,39 @@
+# Git ignore file untuk SmartRT
+
+# Environment & Config
+.env
+.env.local
+config.local.js
+koneksi.local.php
+
+# IDE & Editor
+.vscode/
+.idea/
+*.code-workspace
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+.windows-folder-icon
+
+# Logs
+*.log
+logs/
+
+# Dependencies (jika ada)
+node_modules/
+vendor/
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Database dumps untuk development
+dumps/
+
+# XAMPP local files
+.xampp-config
